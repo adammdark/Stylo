@@ -1,1 +1,1 @@
-**Stylo live link =>**https://mystyloapp.netlify.app/
+Stylo live link => https://mystyloapp.netlify.app/
