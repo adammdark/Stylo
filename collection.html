@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stylo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Slab:wght@100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+    <nav class="navbar">
+        <h1>Stylo</h1>
+        <div class="navbar-links">
+            <p class="navbar-link">
+                <a href="index.html">Home</a>
+            </p>
+            <p class="navbar-link">
+                <a href="collection.html">Collection</a>
+            </p>
+            <p class="navbar-link">
+                <a href="contact.html">Contact</a>
+            </p>
+
+        </div>
+        <div class="toggle-bar" onclick="showsidenav()">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </nav>
+    <div class="side-navbar">
+        <p style="text-align: right;" onclick="closesidenav()"><i class="fa-solid fa-xmark"></i></p>
+        <div class="side-navbar-links">
+            <p class="side-navbar-link">
+                <a href="index.html">Home</a>
+            </p>
+            <p class="side-navbar-link">
+                <a href="collection.html">Collection</a>
+            </p>
+            <p class="side-navbar-link">
+                <a href="contact.html">Contact</a>
+            </p>
+        </div>
+    </div>
+    <div class="products-section">
+        <form class="products-search">
+            <input type="text" id="search" placeholder="search">
+            <i class="fa-solid fa-magnifying-glass"></i>
+    
+        </form>
+        <div class="products" id="products">
+        
+            <div class="products-box">
+                <img
+                    src="https://img.freepik.com/free-photo/young-female-model-sleeping-underwear_1303-19122.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>Black Elegent</p>
+            </div>
+            <div class="products-box">
+                <img
+                    src="https://img.freepik.com/free-photo/portrait-young-woman-wearing-black-hat-standing-front-wall_23-2147910358.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>Black classic</p>
+            </div>
+            <div class="products-box">
+                <img
+                    src="https://img.freepik.com/free-photo/front-view-woman-mall-wearing-mask_23-2148630840.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>Black sport</p>
+            </div>
+            <div class="products-box">
+                <img
+                    src="https://img.freepik.com/free-photo/portrait-elegant-professional-businesswoman_23-2150917198.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>Black business</p>
+            </div>
+
+            <div class="products-box">
+                <img
+                    src="https://img.freepik.com/free-photo/beautiful-bride-woman-elegant-wedding-dress-with-bouquet-flowers_144627-46936.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>White Elegent</p>
+            </div>
+            <div class="products-box">
+                <img src="https://img.freepik.com/free-photo/portrait-young-stylish-cute-woman-model-casual-gray-sport-costume-with-natural-makeup-isolated-white-wall_158538-7316.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>White Sport</p>
+            </div>
+            <div class="products-box">
+                <img
+                    src="https://img.freepik.com/free-photo/high-fashion-portrait-young-beautiful-brunette-woman-wearing-nice-trendy-white-suit-sexy-fashion-model-posing-studio-fashionable-female-isolated-blue_158538-25880.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>White Formal</p>
+            </div>
+            <div class="products-box">
+                <img
+                    src="https://img.freepik.com/free-photo/woman-white-dress_144627-31539.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>White Classic</p>
+            </div>
+            <div class="products-box">
+                <img
+                    src="https://img.freepik.com/free-photo/pretty-woman-standing-near-light-rose-flowers_23-2148068603.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>Culotte</p>
+            </div>
+            <div class="products-box">
+                <img
+                    src="https://img.freepik.com/free-photo/young-stylish-beautiful-woman-blue-dress-summer-fashion-trend-vacation-garden-tropical-hotel-terrace-smiling_285396-3858.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>Wrap Around</p>
+            </div>
+            <div class="products-box">
+                <img
+                    src="https://img.freepik.com/free-photo/japanese-wagasa-umbrella-help-by-young-woman_23-2149576120.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>Kimono</p>
+            </div>
+            <div class="products-box">
+                <img
+                    src="https://img.freepik.com/free-photo/girl-with-hands-hips_1149-318.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>Bubble Dress</p>
+            </div>
+            <div class="products-box">
+                <img
+                    src="https://img.freepik.com/free-photo/dissatisfied-young-delivery-girl-blue-uniform-cap-looking-aside-puzzled-standing-pink-wall_141793-61008.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>Polo Dress</p>
+            </div>
+            <div class="products-box">
+                <img
+                    src="https://img.freepik.com/free-photo/cute-girl-with-shopping-bag-park_1157-23443.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>Sack Dress</p>
+            </div>
+            <div class="products-box">
+                <img
+                    src="https://img.freepik.com/free-photo/woman-dress_1303-3785.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>Sheath</p>
+            </div>
+            <div class="products-box">
+                <img
+                    src="https://img.freepik.com/free-photo/women-standing-looking-camera_23-2148261226.jpg?ga=GA1.1.1667709255.1735566807&semt=ais_hybrid">
+                <p>Tunic</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="footer">
+        <div class="footer-container">
+            <div class="footer-box">
+                <h2>Stylo</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero id velit eaque minus unde saepe.</p>
+                <div class="footer-icon">
+                    <a href="#"><i class="fa-brands fa-instagram" style="color:white"></i></a>
+                    <a href="#"><i class="fa-brands fa-twitter" style="color:white"></i></a>
+                    <a href="#"><i class="fa-brands fa-facebook" style="color:white"></i></a>
+                    <a href="#"><i class="fa-brands fa-youtube" style="color:white"></i></a>
+                </div>
+                <p>@2025 Stylo.com</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="collection.js"></script>
+</body>
+
+</html>
